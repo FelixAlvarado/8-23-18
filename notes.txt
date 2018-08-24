@@ -1,0 +1,12 @@
+Discuss different ways and time complexities of solving the following problem: 
+
+Given an arrays and a number k, find the kth smallest element 
+
+sort solution and solve: time nlogn 
+
+using min heap and extract k times: time n + klogn 
+
+using max heap: time n + (n-k)logn 
+
+using modified quick sort: worst n squared, average n 
+
