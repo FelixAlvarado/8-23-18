@@ -18,3 +18,18 @@ What doe sthe await keyword do?
 
 Makes javascript wait until that promise sttles and returns the result. calling await on/in a non asynchronous funciton will result in a syntax error. 
 
+What does console.dir() do ? 
+
+console.dir() (passing in an html elemnt from DOM like decument.body) shows the element as a node with all of its methods console.log() would show it as an HTML element 
+
+What happens when you insert <script> via .innterHTML? 
+
+The script doesn't execute. It gets inserted as an HTML script that has already run. 
+
+What does .hidden property do? 
+
+Its the same as display: none on terms of effect (making objects disapear from DOM). Can use two ways: 
+
+1: <div hidden> Hello</div>
+2: el = document.querySelector('div');
+el.hidden = true;
