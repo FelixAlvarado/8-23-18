@@ -33,3 +33,10 @@ Its the same as display: none on terms of effect (making objects disapear from D
 1: <div hidden> Hello</div>
 2: el = document.querySelector('div');
 el.hidden = true;
+
+What is SQL injection? How do you avoid it? 
+
+When a malicious user input a portion of SQL queries to maipulate the backend query in doing what they want. 
+
+You can avoid by calling mysql_real_escape_string onthe inputes so the query input can't be tricked into executing the wrong thing. 
+
