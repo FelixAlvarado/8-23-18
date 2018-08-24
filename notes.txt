@@ -10,3 +10,11 @@ using max heap: time n + (n-k)logn
 
 using modified quick sort: worst n squared, average n 
 
+what does the async keyword do? 
+
+Putting asyn before a function declarationmakes the function always return a promise (return value can be a promist or not) 
+
+What doe sthe await keyword do? 
+
+Makes javascript wait until that promise sttles and returns the result. calling await on/in a non asynchronous funciton will result in a syntax error. 
+
